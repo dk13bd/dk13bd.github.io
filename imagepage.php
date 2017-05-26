@@ -97,8 +97,9 @@
 			   if (($x > 0) && ($x <= $max_pages)) {
 				  // if we're on current page...
 				  if ($x == $curr_page) {
-					 	echo '<li class="active"><a href="?setid='.$set_id.'&pid='.strval($curr_page).'"><span>'.strval($curr_page).'</span></a></li>';
-				  } else {
+					 echo '<li class="active"><a href="?setid='.$set_id.'&pid='.strval($curr_page).'"><span>'.strval($curr_page).'</span></a></li>';
+				  } 
+				  else {
 					 echo '<li class="active"><a href="?setid='.$set_id.'&pid='.strval($x).'"><span>'.strval($x).'</span></a></li>';
 				  } // end else
 			   } // end if 

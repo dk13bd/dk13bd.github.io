@@ -112,3 +112,4 @@ if (!isset($model_page)) {
 		</body>
 		</html>';
 }
+?>

@@ -18,7 +18,6 @@
 	
 	$video_access = $video_row[0]["Video_Access"];
 	$user_access = $_SESSION['Access'];
-
    }
 	catch (Exception $e) {
 		echo '<p>', $e->getMessage(), '</p>';
@@ -30,9 +29,11 @@
     <div class="container inner">
 	  <div class="videoWrapper">
 		<?php 
-		if ($video_access === 'Free' || $user_access === 'Monthly Full Member' || $user_access === 'Seasonal Full Member')
-		{
+		if ($video_access === 'Free' || $user_access === 'Monthly Full Member' || $user_access === 'Seasonal Full Member'){
 			echo $video_row[0]['Video_Link'];
+		}
+		else if (!isset($video_row[0])) {
+			echo '<h5 style="color:red;">Video was not found, sorry for the inconvenience.</h5>';
 		}
 		else {
 			echo '<h5 style="color:red;">You do not have sufficient access to see this video. Please login or purchase one of our membership plans.</h5>';
@@ -40,18 +41,18 @@
 		?>
 	  </div>
       <div class="divide30"></div>
-      <h2 class="post-title"> <?php if (isset($video_row[0])) {echo $video_row[0]['Video_Name'];}?> </h2>
-      <div class="meta"><span class="date"> <?php if (isset($video_row[0])) {echo $video_row[0]['Video_Date_Added'];}?>
+      <h2 class="post-title"> <?php echo $video_row[0]['Video_Name']; ?> </h2>
+      <div class="meta"><span class="date"> <?php echo $video_row[0]['Video_Date_Added']; ?>
 	  </span><span>
 	  <?php
 	  	  if ($video_access === 'Free') { 
 			echo '<i class="icon-cc-nc"></i> Free</span></div>';
 		  }
 		  else {
-			  echo '<i class="budicon-cash-dollar"></i> Paid</span></div>';
+			echo '<i class="budicon-cash-dollar"></i> Paid</span></div>';
 		  }
 	  ?>
-      <p><?php if (isset($video_row[0])) {echo $video_row[0]['Video_Desc'];}?></p>
+      <p><?php echo $video_row[0]['Video_Desc']; ?></p>
     </div>
     <!-- /.container -->
   </div>

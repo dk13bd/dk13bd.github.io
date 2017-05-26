@@ -24,8 +24,11 @@
 		// How many items to list per page
 		$limit = 9;
 		
+		//get filter type and current page
 		$filter = filter_input(INPUT_GET, 'filter', FILTER_VALIDATE_INT, FILTER_NULL_ON_FAILURE);
+		$curr_page = filter_input(INPUT_GET, 'pid', FILTER_VALIDATE_INT, FILTER_NULL_ON_FAILURE);
 		
+		// Find out how many items are in the table
 		if (isset($filter) && $filter == 1) {
 			$sql_search = "SELECT Video_ID as Source_ID, 'video' as Source_Type, Video_Image as Cover_Image, Video_Name as Name, Video_Date_Added as Date_Added, Video_Access as Access FROM `Videos` WHERE Video_Access = 'Paid' AND Video_Name like '%".$svalue."%' UNION SELECT Set_ID as Source_ID, 'image' as Source_Type, Set_Image as Cover_Image, Set_Name as Name, Set_Date_Added as Date_Added, Set_Access as Access FROM `Images` WHERE Set_Access = 'Paid' AND Set_Name like '%".$svalue."%'";
 		}
@@ -35,14 +38,11 @@
 		else {
 			$sql_search = "SELECT Video_ID as Source_ID, 'video' as Source_Type, Video_Image as Cover_Image, Video_Name as Name, Video_Date_Added as Date_Added, Video_Access as Access FROM `Videos` WHERE Video_Name like '%".$svalue."%' UNION SELECT Set_ID as Source_ID, 'image' as Source_Type, Set_Image as Cover_Image, Set_Name as Name, Set_Date_Added as Date_Added, Set_Access as Access FROM `Images` WHERE Set_Name like '%".$svalue."%'";
 		}
-		
 		$total = $db_handle->numRows($sql_search);
 		
 		// How many pages will there be
 		$max_pages = ceil($total/ $limit);
 		if ($max_pages == 0) {$max_pages = 1;}
-		//get current page
-		$curr_page = filter_input(INPUT_GET, 'pid', FILTER_VALIDATE_INT, FILTER_NULL_ON_FAILURE);
 		if ($curr_page === null) { $curr_page = 1; }
 		elseif ($curr_page < 1 || $curr_page > $max_pages) { $curr_page = 1; }
 		
@@ -55,7 +55,6 @@
 		else {
 			$sql_search_query = "SELECT Video_ID as Source_ID, 'video' as Source_Type, Video_Image as Cover_Image, Video_Name as Name, Video_Date_Added as Date_Added, Video_Access as Access FROM `Videos` WHERE Video_Name like '%".$svalue."%' UNION SELECT Set_ID as Source_ID, 'image' as Source_Type, Set_Image as Cover_Image, Set_Name as Name, Set_Date_Added as Date_Added, Set_Access as Access FROM `Images` WHERE Set_Name like '%".$svalue."%' ORDER BY Source_ID DESC LIMIT ".strval($limit)." OFFSET ".strval(($curr_page - 1) * 9);
 		}
-		
 		$search_result = $db_handle->runQuery($sql_search_query);
 		$msg = "Search for ".$svalue." returned with ".$total." results.";
 	}
@@ -138,8 +137,9 @@
 			   if (($x > 0) && ($x <= $max_pages)) {
 				  // if we're on current page...
 				  if ($x == $curr_page) {
-					 	echo '<li class="active"><a href="?val='.$svalue.'&filter='.$filter.'&pid='.strval($curr_page).'"><span>'.strval($curr_page).'</span></a></li>';
-				  } else {
+					 echo '<li class="active"><a href="?val='.$svalue.'&filter='.$filter.'&pid='.strval($curr_page).'"><span>'.strval($curr_page).'</span></a></li>';
+				  } 
+				  else {
 					 echo '<li class="active"><a href="?val='.$svalue.'&filter='.$filter.'&pid='.strval($x).'"><span>'.strval($x).'</span></a></li>';
 				  } // end else
 			   } // end if 

@@ -13,8 +13,9 @@
 		// How many items to list per page
 		$limit = 9;
 		
-		//filter free or paid videos
+		//get filter type and current page
 		$filter = filter_input(INPUT_GET, 'filter', FILTER_VALIDATE_INT, FILTER_NULL_ON_FAILURE);
+		$curr_page = filter_input(INPUT_GET, 'pid', FILTER_VALIDATE_INT, FILTER_NULL_ON_FAILURE);
 				
 		// Find out how many items are in the table
 		if (isset($filter) && $filter == 1) {
@@ -31,9 +32,6 @@
 		// How many pages will there be
 		$max_pages = ceil($total/ $limit);
 		if ($max_pages == 0) {$max_pages = 1;}
-		
-		//get current page
-		$curr_page = filter_input(INPUT_GET, 'pid', FILTER_VALIDATE_INT, FILTER_NULL_ON_FAILURE);
 		if ($curr_page === null) { $curr_page = 1; }
 		elseif ($curr_page < 1 || $curr_page > $max_pages) { $curr_page = 1; }
 		
@@ -46,7 +44,7 @@
 		else {
 			$sql_video_query = "SELECT * FROM Videos ORDER BY Video_ID DESC LIMIT ".strval($limit)." OFFSET ".strval(($curr_page - 1) * 9);
 		}
-		$videos_all = $db_handle->runQuery($sql_video_query);
+		$videos_result = $db_handle->runQuery($sql_video_query);
 
 		} 
 		catch (Exception $e) {
@@ -65,7 +63,7 @@
         <div class="blog-posts text-boxes">
           <div class="isotope row">
 		  
-         	<?php foreach ($videos_all as $row): 
+         	<?php foreach ($videos_result as $row): 
 			$reference = 'videopage.php?vid='.$row["Video_ID"]; ?>
 			
             <div class="col-sm-6 col-md-4 grid-view-post">
@@ -75,7 +73,7 @@
                   <h4 class="post-title"><a href="<?php echo $reference; ?>"><?php echo $row["Video_Name"]; ?></a></h4>
                   <div class="meta"><span class="date"><?php echo $row["Video_Date_Added"]; ?></span><span class="comments"><a href="<?php echo $reference; ?>">
 				  <?php 
-				  if ($row["Video_Access"] == 'Free') { 
+				  if ($row["Video_Access"] === 'Free') { 
 					echo '<i class="icon-cc-nc"></i> Free</a></span></div>';
 				  }
 				  else {
@@ -97,10 +95,10 @@
       <!-- /.blog --> 
     </div>
     <!--/.container --> 
-<div class="text-center">
+	<div class="text-center">
 	  <div class="pagination">
 	    <ul>
-		<?php
+			<?php
 			$range = 1;
 		    // if not on page 1, don't show back links
 			if ($curr_page > 1) {
@@ -114,8 +112,9 @@
 			   if (($x > 0) && ($x <= $max_pages)) {
 				  // if we're on current page...
 				  if ($x == $curr_page) {
-					 	echo '<li class="active"><a href="?filter='.$filter.'&pid='.strval($curr_page).'"><span>'.strval($curr_page).'</span></a></li>';
-				  } else {
+					 echo '<li class="active"><a href="?filter='.$filter.'&pid='.strval($curr_page).'"><span>'.strval($curr_page).'</span></a></li>';
+				  } 
+				  else {
 					 echo '<li class="active"><a href="?filter='.$filter.'&pid='.strval($x).'"><span>'.strval($x).'</span></a></li>';
 				  } // end else
 			   } // end if 
@@ -127,7 +126,7 @@
 				echo '<li><a href="?filter='.$filter.'&pid='.strval($max_pages).'">Last</a></li>';
 			}
 			?>
-			</ul>
+		</ul>
 	  </div>
 	  <!-- /.pagination --> 
 	</div>
