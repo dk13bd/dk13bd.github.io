@@ -8,7 +8,17 @@
 	require_once("header.php");
   ?>
   
-  <div class="offset"></div>
+  <div class="post-parallax parallax inverse-wrapper parallax1" style="background-image: url(style/images/art/parallax1.jpg);">
+    <div class="container inner text-center">
+      <div class="headline text-center">
+        <h2>My Profile</h2>
+      </div>
+      <!-- /.headline --> 
+    </div>
+    <!--/.container --> 
+  </div>
+  <!--/.parallax --> 
+  
   <div class="light-wrapper">
     <div class="container inner">
       <div class="thin">
@@ -122,14 +132,3 @@
   <?php 
     include("footer.php");
   ?>
-  
-</main>
-<!--/.body-wrapper --> 
-<script src="style/js/jquery.min.js"></script> 
-<script src="style/js/bootstrap.min.js"></script> 
-<script src="style/js/plugins.js"></script> 
-<script src="style/js/classie.js"></script> 
-<script src="style/js/jquery.themepunch.tools.min.js"></script> 
-<script src="style/js/scripts.js"></script>
-</body>
-</html>

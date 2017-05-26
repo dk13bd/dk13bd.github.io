@@ -34,6 +34,7 @@
           <div class="widget">
             <h4 class="widget-title">Tags</h4>
             <ul class="tag-list">
+			  <li><a href="index.php" class="btn">Home Page</a></li>
               <li><a href="models.php" class="btn">Models</a></li>
               <li><a href="images.php" class="btn">Photography</a></li>
               <li><a href="videos.php" class="btn">HD Videos</a></li>
@@ -45,13 +46,21 @@
           <div class="widget">
             <h4 class="widget-title">Social Media</h4>
             <ul class="social">
-				<li><a href="#"><i class="icon-s-pinterest"></i></a></li>
-				<li><a href="#"><i class="icon-s-instagram"></i></a></li>
-				<li><a href="#"><i class="icon-s-tumblr"></i></a></li>
+	    <li><a href="#"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-reddit" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+		<li><a href="#"><i class="fa fa-tumblr-square" aria-hidden="true"></i></a></li>
             </ul>
             <!-- .social --> 
             
           </div>
+		  <div class="widget">
+            <h4 class="widget-title">Contact us</h4>
+            <div class="contact-info"> 
+              <i class="icon-mail"></i> <a href="mailto:dk13photostudio@gmail.com">dk13photostudio@gmail.com</a> 
+			</div>
+          </div>
+          <!-- /.widget --> 
         </div>
         <!-- /column -->
         
@@ -60,14 +69,14 @@
             <h4 class="widget-title">Search</h4>
             <form class="searchform" method="POST" action="search.php" id="searchform">
               <input type="text" name="svalue">
-              <button type="submit" name="search" class="btn btn-default">Find</button>
+              <button type="submit" name="search" class="btn btn-default">Go</button>
             </form>
           </div>
           <!-- /.widget -->
-          <div class="widget">
-            <h4 class="widget-title">Contact us</h4>
+		  <div class="widget">
+            <h4 class="widget-title">Terms and Conditions</h4>
             <div class="contact-info"> 
-              <i class="icon-mail"></i> <a href="mailto:dk13photostudio@gmail.com">dk13photostudio@gmail.com</a> 
+              <p>DK-13 services may contain materials of an adult, sexually explicit nature. You agree and affirm that you are not offended by this content and wish to view such content. You agree and affirm that you are of legal age to purchase adult, sexually explicit materials in your jurisdiction. You agree not to upload, distribute, modify, display, post, sell or otherwise exploit or share the content and other intellectual property from DK-13.</p>
 			</div>
           </div>
           <!-- /.widget --> 
@@ -89,3 +98,17 @@
     <!-- .sub-footer --> 
   </footer>
   <!-- /footer --> 
+<?php 
+if (!isset($model_page)) {
+	echo '</main>
+		<!--/.body-wrapper --> 
+		<script src="style/js/jquery.min.js"></script> 
+		<script src="style/js/bootstrap.min.js"></script> 
+		<script src="style/js/plugins.js"></script> 
+		<script src="style/js/classie.js"></script> 
+		<script src="style/js/jquery.themepunch.tools.min.js"></script> 
+		<script src="style/js/scripts.js"></script>
+		<script src="https://use.fontawesome.com/29956240d5.js"></script>
+		</body>
+		</html>';
+}

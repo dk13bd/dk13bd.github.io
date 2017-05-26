@@ -19,6 +19,7 @@
 	
     // How many pages will there be
     $max_pages = ceil($total/ $limit);
+	if ($max_pages == 0) {$max_pages = 1;}
 	
  	$curr_page = filter_input(INPUT_GET, 'pid', FILTER_VALIDATE_INT, FILTER_NULL_ON_FAILURE);
 	if ($curr_page === null) { $curr_page = 1; }
@@ -26,6 +27,7 @@
 	
     $sql_str_models = "SELECT * FROM Models ORDER BY Model_ID DESC LIMIT ".strval($limit)." OFFSET ".strval(($curr_page - 1) * 9);
 	$sql_models = $db_handle->runQuery($sql_str_models);
+	$model_page = true;
 	} 
 	catch (Exception $e) {
 		echo '<p>', $e->getMessage(), '</p>';
@@ -143,5 +145,6 @@
 <script src="style/js/classie.js"></script> 
 <script src="style/js/jquery.themepunch.tools.min.js"></script> 
 <script src="style/js/scripts.js"></script>
+<script src="https://use.fontawesome.com/29956240d5.js"></script>
 </body>
 </html>

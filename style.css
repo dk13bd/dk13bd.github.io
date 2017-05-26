@@ -1784,7 +1784,7 @@ main.slide-out .slide-portfolio-overlay {
     background-image: url(style/images/art/parallax3.jpg)
 }
 .post-parallax .inner {
-    padding: 220px 0 150px 0;
+    padding: 170px 0 75px 0;
 }
 /*-----------------------------------------------------------------------------------*/
 /* 	13. VIDEO PARALLAX
@@ -3166,6 +3166,7 @@ textarea {
 .searchform .btn {
     border-radius: 0;
 }
+
 /*-----------------------------------------------------------------------------------*/
 /*	27. SOCIAL ICONS
 /*-----------------------------------------------------------------------------------*/
@@ -3543,6 +3544,43 @@ textarea {
 .social.naked a:hover .icon-s-soundcloud {
     color: #ff8b45
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*	27.5. SEARCH HEADER
+/*-----------------------------------------------------------------------------------*/
+.search {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    line-height: 1;
+}
+.search li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+	margin-top: 8px;
+}
+.search.naked.pull-right li {
+	margin-left: 5px;
+	margin-bottom: 0;
+}
+.navbar .search.naked input{
+	margin-top: 7px;
+	margin-left: 8px;
+	background: #696969;
+	color: #FFFFFF;
+}
+.navbar .search.naked {
+	text-align: right;
+}
+.navbar .search.naked li {
+	margin-left: 15px;
+	margin-bottom: 0;
+}
+.search.naked li:first-child {
+	margin-right: 0;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	28. FANCYBOX
 /*-----------------------------------------------------------------------------------*/

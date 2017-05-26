@@ -43,8 +43,13 @@
 		<?php
 		session_start();
 		if (isset($_SESSION['LoginID'])) {
-			echo '<li class="header"><a href="profile.php">My Account </a></li>';
-			echo '<li class="header"><a href="logout.php">Logout </a></li>';
+			echo 
+			'<li class="dropdown"><a href="profile.php" class="dropdown-toggle js-activated">My Account <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+				<li><a href="profile.php">Profile</a></li>
+				<li><a href="logout.php">Logout</a></li> 
+			  </ul>
+			</li>';
 		}
 		else {
 			echo '<li class="header"><a href="login.php">Login </a></li>';
@@ -54,14 +59,17 @@
       </ul>
       <!-- /.navbar-nav --> 
     </nav>
-    <!-- /.navbar-collapse -->
+	<!-- /.navbar-collapse -->
+
     <div class="social-wrapper">
-      <ul class="social naked">
-        <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
-        <li><a href="#"><i class="icon-s-instagram"></i></a></li>
-		<li><a href="#"><i class="icon-s-tumblr"></i></a></li>
+	  <form method="POST" action="search.php" id="searchform">
+      <ul class="search naked">
+	    <li><input type="text" name="svalue"></li>
+        <li><button type="submit" name="search" class="btn btn-default">Search</button></li>
       </ul>
-      <!-- /.social --> 
+	  <!-- /.social --> 
+	  </form>
+
     </div>
     <!-- /.social-wrapper --> 
   </div>
