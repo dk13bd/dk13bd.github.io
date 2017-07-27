@@ -57,7 +57,7 @@
 		  <div class="widget">
             <h4 class="widget-title">Contact us</h4>
             <div class="contact-info"> 
-              <i class="icon-mail"></i> <a href="mailto:dk13photostudio@gmail.com">dk13photostudio@gmail.com</a> 
+              <i class="icon-mail"></i> <a href="mailto:dk13rope@gmail.com">dk13rope@gmail.com</a> 
 			</div>
           </div>
           <!-- /.widget --> 

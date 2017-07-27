@@ -23,7 +23,7 @@
     <div class="container inner">
       <div class="thin">
         <h3 class="section-title">Welcome <?php echo $_SESSION['FirstName']; ?>! </h3>
-        <div class="divide50"></div>
+        <div class="divide30"></div>
         <div class="form-container">
           <form name="update_password" method="post">
 			<div class="row">

@@ -8,22 +8,20 @@
   <div class="tp-fullscreen-container revolution">
     <div class="tp-fullscreen">
       <ul>
-        <li data-transition="fade"> <img src="style/images/art/slider-bg1.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
-          <h1 class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">hello! this is lydia</h1>
-          <div class="tp-caption medium sfr" data-x="30" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">most completed photography & <br />
-            magazine template with various options</div>
+        <li data-transition="fade"> <img src="style/images/index/slider/IMG_1686.JPG"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+          <h1 class="tp-caption large sfl" data-x="0" data-y="63" data-speed="900" data-start="800" data-easing="Sine.easeOut">Welcome to DK13ROPE!</h1>
+          <div class="tp-caption medium sfl" data-x="0" data-y="148" data-speed="900" data-start="1500" data-easing="Sine.easeOut">we specialize in photo and video production</div>
         </li>
-        <li data-transition="fade"> <img src="style/images/art/slider-bg2.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
-          <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">built for creatives to showcase</div>
-          <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut">their portfolio beautifully</div>
+        <li data-transition="fade"> <img src="style/images/index/slider/IMG_1674.JPG" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+          <div style="color:black" class="tp-caption large sfr" data-x="750" data-y="243" data-speed="900" data-start="800" data-easing="Sine.easeOut">Professional content</div>
+          <div style="color:black" class="tp-caption medium sfr" data-x="750" data-y="323" data-speed="900" data-start="1500" data-easing="Sine.easeOut">of women struggling in bondage</div>
         </li>
-        <li data-transition="fade"> <img src="style/images/art/slider-bg3.jpg"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
-          <div class="tp-caption large text-center sfb" data-x="center" data-y="293" data-speed="900" data-start="800" data-easing="Sine.easeOut">free updates & premium support</div>
-          <div class="tp-caption medium text-center sfb" data-x="center" data-y="387" data-speed="900" data-start="1500" data-easing="Sine.easeOut">you will have access to all updates and free support</div>
+        <li data-transition="fade"> <img src="style/images/index/slider/IMG_1676.JPG"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+          <div style="color:black" class="tp-caption large sft" data-x="650" data-y="173" data-speed="900" data-start="800" data-easing="Sine.easeOut">Regular updates and support</div>
+          <div style="color:black" class="tp-caption medium sft" data-x="820" data-y="257" data-speed="900" data-start="1500" data-easing="Sine.easeOut">for our free and premium members</div>
         </li>
-        <li data-transition="fade"> <img src="style/video/nyc.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" />
-          <div class="tp-caption large text-center sfb" data-x="center" data-y="293" data-speed="900" data-start="800" data-endspeed="100" data-easing="Sine.easeOut" style="z-index: 2;">html5 self hosted video support</div>
-          <div class="tp-caption medium text-center sfb" data-x="center" data-y="387" data-speed="900" data-start="1500" data-endspeed="100" data-easing="Sine.easeOut" style="z-index: 2;">for better visualization of your company</div>
+       <!-- <li data-transition="fade"> <img src="style/video/dk13rope.JPG" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" />
+          <div class="tp-caption large text-center sft" data-x="center" data-y="880" data-speed="900" data-start="800" data-endspeed="100" data-easing="Sine.easeOut" style="z-index: 2;">DK13ROPE</div>
           <div class="tp-caption tp-fade fadeout fullscreenvideo"
 			data-x="0"
 			data-y="0"
@@ -41,11 +39,11 @@
 				data-volume="mute" data-forceCover="1" data-aspectratio="16:9" data-forcerewind="on" style="z-index: 1;">
             <video class="" preload="none" width="100%" height="100%" 
 poster='style/video/nyc.jpg'>
-              <source src='style/video/nyc.mp4' type='video/mp4' />
-              <source src='style/video/nyc.webm' type='video/webm' />
+              <source src='style/video/dk13rope.mp4' type='video/mp4' />
+              <source src='style/video/nyc.webm' type='video/webm' /> 
             </video>
           </div>
-        </li>
+        </li> -->
       </ul>
       <div class="tp-bannertimer tp-bottom"></div>
     </div>
@@ -57,14 +55,14 @@ poster='style/video/nyc.jpg'>
     <div class="container inner">
        <div class="thin">
         <h3 class="section-title text-center">Galleries</h3> 
-        <p class="text-center">blah blah blah</p>
+        <p class="text-center">explore hundreds of images and videos</p>
       </div> 
       <!-- /.thin -->
       <div class="divide10"></div>
       <div class="row">
         <div class="col-sm-4">
           <div class="caption-overlay">
-            <figure><a href="models.php"><img src="style/images/art/s1.jpg" alt="" /> </a></figure>
+            <figure><a href="models.php"><img src="style/images/index/thumbnail/IMG_1679.JPG" alt="" /> </a></figure>
             <div class="caption bottom-right">
               <div class="title">
                 <h3 class="main-title layer">Model Gallery</h3>
@@ -77,7 +75,7 @@ poster='style/video/nyc.jpg'>
         <!-- /column -->
         <div class="col-sm-4">
           <div class="caption-overlay">
-            <figure><a href="images.php"><img src="style/images/art/s2.jpg" alt="" /> </a></figure>
+            <figure><a href="images.php"><img src="style/images/index/thumbnail/IMG_1669.JPG" alt="" /> </a></figure>
             <div class="caption bottom-right">
               <div class="title">
                 <h3 class="main-title layer">Image Gallery</h3>
@@ -90,7 +88,7 @@ poster='style/video/nyc.jpg'>
         <!-- /column -->
         <div class="col-sm-4">
           <div class="caption-overlay">
-            <figure><a href="videos.php"><img src="style/images/art/s3.jpg" alt="" /> </a></figure>
+            <figure><a href="videos.php"><img src="style/images/index/thumbnail/IMG_1687.JPG" alt="" /> </a></figure>
             <div class="caption bottom-right">
               <div class="title">
                 <h3 class="main-title layer">Video Gallery</h3>
@@ -112,21 +110,22 @@ poster='style/video/nyc.jpg'>
   <div class="dark-wrapper">
     <div class="container inner">
       <div class="thin">
-        <h3 class="section-title text-center">Sample Work</h3>
-        <p class="text-center">blah blah blah</p>
+        <h3 class="section-title text-center">Sample Gallery</h3>
+        <p class="text-center">a small example of our work</p>
       </div>
       <!-- /.thin -->
       <div class="divide10"></div>
       <div class="cbp-panel">
-        <div id="js-filters-mosaic" class="cbp-filter-container text-center">
+       <!-- <div id="js-filters-mosaic" class="cbp-filter-container text-center">
           <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> All </div>
           <div data-filter=".newest" class="cbp-filter-item"> Newest </div>
           <div data-filter=".trending" class="cbp-filter-item"> Trending </div>
           <div data-filter=".popular" class="cbp-filter-item"> Popular </div>
-        </div>
+        </div>-->
         <div id="js-grid-mosaic" class="cbp">
-          <div class="cbp-item print motion"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="https://vimeo.com/24243147" data-title-id="title-1">
-            <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p1.jpg" alt="" /> </div>
+          
+		  <div class="cbp-item newest trending"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1670.JPG" data-title-id="title-2">
+            <div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1670_small.JPG" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
                 <div class="cbp-l-caption-body">
@@ -135,17 +134,11 @@ poster='style/video/nyc.jpg'>
               </div>
             </div>
             <!--/.cbp-caption-activeWrap --> 
-            </a>
-            <div id="title-1" class="hidden">
-              <h3>Ipsum Tortor Dapibus</h3>
-              <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-            </div>
-            <!-- /.hidden --> 
-          </div>
+            </a> </div>
           <!--/.cbp-item -->
-          
-          <div class="cbp-item trending"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/art/p2-full.jpg" data-title-id="title-2">
-            <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p2.jpg" alt="" /> </div>
+		  
+          <div class="cbp-item newest popular"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1668.JPG" data-title-id="title-2">
+            <div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1668_small.JPG" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
                 <div class="cbp-l-caption-body">
@@ -157,27 +150,21 @@ poster='style/video/nyc.jpg'>
             </a> </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item newest popular"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/art/p3-full.jpg" data-title-id="title-3">
-            <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p3.jpg" alt="" /> </div>
+          <div class="cbp-item popular"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1673.JPG" data-title-id="title-6">
+            <div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1673_small.JPG" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
                 <div class="cbp-l-caption-body">
                   <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
-                </div>
+				</div>
               </div>
             </div>
             <!--/.cbp-caption-activeWrap --> 
-            </a>
-            <div id="title-3" class="hidden">
-              <h3>Ullamcorper Sem Bibendum</h3>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-            </div>
-            <!-- /.hidden --> 
-          </div>
+            </a> </div>
           <!--/.cbp-item -->
-          
-          <div class="cbp-item web"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/art/p4-full.jpg" data-title-id="title-4">
-            <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p4.jpg" alt="" /> </div>
+		  
+          <div class="cbp-item trending popular"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1685.JPG" data-title-id="title-5">
+            <div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1685_small.JPG" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
                 <div class="cbp-l-caption-body">
@@ -189,8 +176,8 @@ poster='style/video/nyc.jpg'>
             </a> </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item print logo"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/art/p5-full.jpg" data-title-id="title-5">
-            <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p5.jpg" alt="" /> </div>
+		  <div class="cbp-item newest trending"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1683.JPG" data-title-id="title-2">
+            <div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1683_small.JPG" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
                 <div class="cbp-l-caption-body">
@@ -201,28 +188,48 @@ poster='style/video/nyc.jpg'>
             <!--/.cbp-caption-activeWrap --> 
             </a> </div>
           <!--/.cbp-item -->
-          
-          <div class="cbp-item print web"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/art/p6-full.jpg" data-title-id="title-6">
-            <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p6.jpg" alt="" /> </div>
+		  
+		  <div class="cbp-item newest trending"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1690.JPG" data-title-id="title-6">
+            <div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1690_small.JPG" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
                 <div class="cbp-l-caption-body">
                   <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
-                </div>
+				</div>
               </div>
             </div>
             <!--/.cbp-caption-activeWrap --> 
-            </a>
-            <div id="title-6" class="hidden">
-              <h3>Ullamcorper Sem Bibendum</h3>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-            </div>
-            <!-- /.hidden --> 
-          </div>
+            </a> </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item motion logo"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="https://vimeo.com/6757600" data-title-id="title-7">
-            <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p7.jpg" alt="" /> </div>
+          <div class="cbp-item trending"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1694.JPG" data-title-id="title-6">
+            <div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1694_small.JPG" alt="" /> </div>
+            <div class="cbp-caption-activeWrap">
+              <div class="cbp-l-caption-alignCenter">
+                <div class="cbp-l-caption-body">
+                  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
+				</div>
+              </div>
+            </div>
+            <!--/.cbp-caption-activeWrap --> 
+            </a> </div>
+          <!--/.cbp-item -->
+          
+		  <div class="cbp-item popular"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1695.JPG" data-title-id="title-6">
+            <div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1695_small.JPG" alt="" /> </div>
+            <div class="cbp-caption-activeWrap">
+              <div class="cbp-l-caption-alignCenter">
+                <div class="cbp-l-caption-body">
+                  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
+				</div>
+              </div>
+            </div>
+            <!--/.cbp-caption-activeWrap --> 
+            </a> </div>
+          <!--/.cbp-item -->		  
+
+		  <div class="cbp-item newest popular"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1696.JPG" data-title-id="title-2">
+            <div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1696_small.JPG" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
                 <div class="cbp-l-caption-body">
@@ -232,99 +239,113 @@ poster='style/video/nyc.jpg'>
             </div>
             <!--/.cbp-caption-activeWrap --> 
             </a> </div>
-          <!--/.cbp-item -->
-          
-          <div class="cbp-item print logo"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/art/p8-full.jpg" data-title-id="title-8">
-            <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p8.jpg" alt="" /> </div>
+		  
+          <div class="cbp-item trending"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1678.JPG" data-title-id="title-6">
+            <div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1678_small.JPG" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
                 <div class="cbp-l-caption-body">
                   <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
-                </div>
+				</div>
+              </div>
+            </div>
+            <!--/.cbp-caption-activeWrap --> 
+            </a> </div>
+          <!--/.cbp-item -->
+		  
+		 <div class="cbp-item newest trending"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1680.JPG" data-title-id="title-6">
+            <div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1680_small.JPG" alt="" /> </div>
+            <div class="cbp-caption-activeWrap">
+              <div class="cbp-l-caption-alignCenter">
+                <div class="cbp-l-caption-body">
+                  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
+				</div>
               </div>
             </div>
             <!--/.cbp-caption-activeWrap --> 
             </a> </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item logo web"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/art/p9-full.jpg" data-title-id="title-9">
-            <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p9.jpg" alt="" /> </div>
+		  <div class="cbp-item trending"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1677.JPG" data-title-id="title-6">
+			<div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1677_small.JPG" alt="" /> </div>
+			<div class="cbp-caption-activeWrap">
+			  <div class="cbp-l-caption-alignCenter">
+				<div class="cbp-l-caption-body">
+				  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
+				</div>
+			  </div>
+			</div>
+			<!--/.cbp-caption-activeWrap --> 
+			</a> </div>
+		  <!--/.cbp-item -->
+		  
+		  <div class="cbp-item newest popular"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1692.JPG" data-title-id="title-6">
+			<div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1692_small.JPG" alt="" /> </div>
+			<div class="cbp-caption-activeWrap">
+			  <div class="cbp-l-caption-alignCenter">
+				<div class="cbp-l-caption-body">
+				  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
+				</div>
+			  </div>
+			</div>
+			<!--/.cbp-caption-activeWrap --> 
+			</a> </div>
+		  <!--/.cbp-item -->
+		  
+          <div class="cbp-item newest"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1689.JPG" data-title-id="title-6">
+            <div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1689_small.JPG" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
                 <div class="cbp-l-caption-body">
                   <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
-                </div>
+				</div>
               </div>
             </div>
             <!--/.cbp-caption-activeWrap --> 
             </a> </div>
           <!--/.cbp-item -->
           
-          <div class="cbp-item print web"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/art/p10-full.jpg" data-title-id="title-10">
-            <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p10.jpg" alt="" /> </div>
+		<div class="cbp-item trending"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1671.JPG" data-title-id="title-6">
+			<div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1671_small.JPG" alt="" /> </div>
+			<div class="cbp-caption-activeWrap">
+			  <div class="cbp-l-caption-alignCenter">
+				<div class="cbp-l-caption-body">
+				  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
+				</div>
+			  </div>
+			</div>
+			<!--/.cbp-caption-activeWrap --> 
+			</a> </div>
+		  <!--/.cbp-item -->
+          
+          <div class="cbp-item newest popular"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1672.JPG" data-title-id="title-6">
+            <div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1672_small.JPG" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
                 <div class="cbp-l-caption-body">
                   <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
-                </div>
-              </div>
-            </div>
-            
-            <!--/.cbp-caption-activeWrap --> 
-            
-            </a> </div>
-          
-          <!--/.cbp-item -->
-          
-          <div class="cbp-item print"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/art/p11-full.jpg" data-title-id="title-11">
-            <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p11.jpg" alt="" /> </div>
-            <div class="cbp-caption-activeWrap">
-              <div class="cbp-l-caption-alignCenter">
-                <div class="cbp-l-caption-body">
-                  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
-                </div>
-              </div>
-            </div>
-            
-            <!--/.cbp-caption-activeWrap --> 
-            
-            </a> </div>
-          
-          <!--/.cbp-item -->
-          
-          <div class="cbp-item print logo"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/art/p12-full.jpg" data-title-id="title-12">
-            <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p12.jpg" alt="" /> </div>
-            <div class="cbp-caption-activeWrap">
-              <div class="cbp-l-caption-alignCenter">
-                <div class="cbp-l-caption-body">
-                  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
-                </div>
+				</div>
               </div>
             </div>
             <!--/.cbp-caption-activeWrap --> 
             </a> </div>
           <!--/.cbp-item -->
-          
-          <div class="cbp-item print logo"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/art/p13-full.jpg" data-title-id="title-13">
-            <div class="cbp-caption-defaultWrap"> <img src="style/images/art/p13.jpg" alt="" /> </div>
-            <div class="cbp-caption-activeWrap">
-              <div class="cbp-l-caption-alignCenter">
-                <div class="cbp-l-caption-body">
-                  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
-                </div>
-              </div>
-            </div>
-            <!--/.cbp-caption-activeWrap --> 
-            </a> </div>
-          <!--/.cbp-item --> 
-          
-        </div>
-        <!--/.cbp --> 
-        
+
+		  <div class="cbp-item trending newest"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="style/images/index/sample/IMG_1691.JPG" data-title-id="title-6">
+			<div class="cbp-caption-defaultWrap"> <img src="style/images/index/sample/IMG_1691_small.JPG" alt="" /> </div>
+			<div class="cbp-caption-activeWrap">
+			  <div class="cbp-l-caption-alignCenter">
+				<div class="cbp-l-caption-body">
+				  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
+				</div>
+			  </div>
+			</div>
+			<!--/.cbp-caption-activeWrap --> 
+			</a> </div>
+		  <!--/.cbp-item -->
+
       </div>
-      <!--/.cbp-panel -->
-      <div class="divide30"></div>
-      <div id="js-grid-mosaic-more" class="cbp-l-loadMore-text"> <a href="ajax/loadmore2.html" class="cbp-l-loadMorelink btn" rel="nofollow"> <span class="cbp-l-loadMore-defaultText">Load More</span> <span class="cbp-l-loadMore-loadingText">Loading...</span> <span class="cbp-l-loadMore-noMoreLoading">No More Works</span> </a> </div>
+      
     </div>
     <!-- /.container --> 
   </div>
